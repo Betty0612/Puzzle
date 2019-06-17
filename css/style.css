@@ -1,0 +1,126 @@
+html {
+    background-image: url("../img/BG.jpg");
+    
+}
+.rules {
+    margin:5%;
+}
+.rulesTitle{
+    text-align: center;
+    color: #a58856;
+}
+.rulesText {
+    padding-left:60px;
+    padding-right:60px;
+    text-align: center;
+    line-height: 1.5;
+}
+.rulesTextAttention {
+    text-align: center;
+    color:red;
+    font-size: 20px;
+    padding-bottom:20px;
+  
+}
+.rulesTextContainer{
+    margin:5%;
+    line-height: 1.5;
+}
+.button {
+    text-align: center;
+}
+.btn {
+    padding: 15px 60px;
+    text-align: center;
+    color: #f7efe1;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #963468;
+    border-radius: 15px;
+    overflow: hidden;
+    outline: none;
+  }
+.btn:hover {
+    background-color: #dd63a4;
+    
+}
+.GameTittle {
+    text-align:center;
+    
+}
+.buttonBack {
+    float:left;
+    margin-top: 20px;
+    margin-left:370px;
+}
+.btnBack {
+    padding: 15px 20px;
+    text-align: center;
+    color: #f7efe1;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: #963468;
+    border-radius: 15px;
+    overflow: hidden;
+    outline: none;
+    margin-top: 5px;
+  }
+.btnBack:hover {
+    background-color: #dd63a4;
+    
+}
+.REFRESH {
+    float:left;
+    max-height: 120%;
+    margin-top: -80px;
+    margin-left: 250px;
+}
+.REFRESH:hover {
+    cursor: pointer;
+}
+.game-score {
+    float:right;
+    font-size:20px;
+    font-weight: bold;
+    margin-top:-45px;
+    margin-right:280px;
+    font-style: italic;
+}
+.game-start{
+    padding: 15px 60px;
+    text-align: center;
+    color: #f7efe1;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ff1956;
+    border-radius: 15px;
+    overflow: hidden;
+    outline: none;
+    margin-top: 23px;
+    margin-left:45px;
+    
+}
+.game-start:hover {
+    background-color: #ff0000;
+    
+}
+.game-board {
+    margin:100px auto;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    overflow: hidden;
+    width: 650px;
+    height: 544px;
+    border: 2px solid #ddd;
+}
+
+.game-tile {
+    position: absolute;
+    cursor: pointer;
+    width: 120px;
+    height: 126px;
+    background:  url(../img/refresh.png);
+}
+
